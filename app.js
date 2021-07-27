@@ -12,7 +12,11 @@
      const joinArray = reArray.join('')
      
      if(inputWord == joinArray){
-        document.querySelector('.output-text').innerHTML = `<p> ${inputWord} = ${joinArray} </p>`
+        document.querySelector('.output-text').innerHTML = `<div>
+        <p> ${inputWord} = ${joinArray} </p>
+        <p style="font-size: 1rem;">It is palindrome.</p>
+        </div>`
+        
      }else{
         document.querySelector('.output-text').innerHTML = `<p style="font-size: 1rem;">It is not a palindrome.</p>`
      }
