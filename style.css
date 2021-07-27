@@ -1,0 +1,86 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 75, 141);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.palindrome{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+}
+.input-container{
+    text-align: center;
+    margin: 20px 0;
+}
+.btn-container{
+    text-align: center;
+}
+header p{
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 15px 0;
+    text-align: center;
+}
+input{
+    width: 70%;
+    border: none;
+    background-color: #fff;
+    padding: 15px;
+    color: rgb(66, 66, 66);
+    font-size: 1.1rem;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border: none;
+    padding: 10px 25px;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transform: scaleY(1);
+}
+
+.output-text{
+ text-align: center;
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+}
+.output-text p{
+    font-size: 3rem;
+    display: block;
+    color: #fff;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color:rgb(233, 233, 233);
+    font-size: 1.3rem;
+}
